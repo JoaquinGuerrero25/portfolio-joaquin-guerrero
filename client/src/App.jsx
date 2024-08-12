@@ -1,7 +1,9 @@
+import { InProgress } from "./components/InProgress";
+
 function App() {
   return (
     <>
-      Hola
+      <InProgress />
     </>
   );
 };
