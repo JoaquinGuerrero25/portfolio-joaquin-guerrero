@@ -3,7 +3,7 @@ import React from 'react';
 const InProgress = () => {
     return (
         <div className="flex items-center justify-center h-screen bg-fondo">
-            <div className="text-center">
+            <div className="text-center px-4">
                 <div className="flex justify-center mb-4">
                     <div className="w-16 h-16 border-4 border-blue-500 border-t-4 border-t-gray-300 rounded-full animate-spin"></div>
                 </div>
