@@ -1,0 +1,10 @@
+{
+    "greeting": "Hola, mi nombre es",
+    "profession": "Soy desarrollador Full Stack",
+    "descriptionJob": "Me especializo en desarrollar aplicaciones web completas y escalables, tanto en front-end como en back-end. Trabajo con tecnologías modernas para crear soluciones efectivas y accesibles que mejoren la experiencia del usuario",
+    "downloadCv": "Descargar cv",
+    "aboutMe": "Sobre Mí",
+    "textAbout1": "Hola! mi nombre es Joaquín. Soy desarrollador Full Stack con experiencia en crear soluciones web completas y escalables. Vivo en Rosario, Argentina.",
+    "textAbout2": "Me especializo en el desarrollo de aplicaciones web tanto en el front-end como en el back-end. Trabajo con tecnologías modernas para construir experiencias digitales intuitivas y efectivas, asegurando que cada proyecto sea accesible y optimizado para los usuarios. Mi enfoque está en resolver problemas complejos con soluciones innovadoras y bien diseñadas.",
+    "textAbout3": "Para lograr estos objetivos, empleo tecnologías y herramientas avanzadas que garantizan soluciones robustas y personalizadas. Estas son algunas de las herramientas con las que tengo experiencia:"
+}

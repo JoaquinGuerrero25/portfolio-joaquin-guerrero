@@ -1,0 +1,10 @@
+{
+    "greeting": "Hi, my name is",
+    "profession": "I am a Full Stack Developer",
+    "descriptionJob": "I specialize in developing complete and scalable web applications, covering both front-end and back-end. I work with modern technologies to create effective and accessible solutions that enhance the user experience",
+    "downloadCv": "Download cv",
+    "aboutMe": "About Me",
+    "textAbout1": "Hello! My name is Joaquín. I am a Full Stack developer with experience in creating complete and scalable web solutions. I live in Rosario, Argentina.",
+    "textAbout2": "I specialize in developing web applications both on the front-end and back-end. I work with modern technologies to build intuitive and effective digital experiences, ensuring that each project is accessible and optimized for users. My focus is on solving complex problems with innovative and well-designed solutions.",
+    "textAbout3": "To achieve these goals, I use advanced technologies and tools that ensure robust and customized solutions. Here are some of the tools I have experience with:"
+}
