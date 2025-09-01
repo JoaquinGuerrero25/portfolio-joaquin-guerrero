@@ -1,0 +1,11 @@
+{
+    "navbar": {
+        "about": "Sobre mí",
+        "projects": "Trabajos",
+        "contact": "Contacto"
+    },
+    "home": {
+        "title": "Hola, soy Joaquín",
+        "description": "Construyo aplicaciones web escalables con React y Material UI."
+    }
+}

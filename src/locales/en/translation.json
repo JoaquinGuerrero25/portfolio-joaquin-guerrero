@@ -1,0 +1,11 @@
+{
+    "navbar": {
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Hi, I'm Joaquín",
+        "description": "I build scalable web applications with React and Material UI."
+    }
+}
