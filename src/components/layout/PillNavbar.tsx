@@ -1,23 +1,15 @@
-import { Box, Button, Divider, IconButton } from "@mui/material";
+import { Box, Button, Card, Divider, IconButton } from "@mui/material";
 import { AccountCircleRounded, ContactsRounded, HomeRounded, WorkRounded } from "@mui/icons-material";
 import { LanguageSwitcher } from "../ui/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import { ThemeSwitcher } from "../ui/ThemeSwitcher";
 
-// const navItems = [
-//     { label: "Home", to: "/" },
-//     { label: "About", to: "/about" },
-//     { label: "Projects", to: "/projects" },
-//     { label: "Contact", to: "/contact" },
-// ];
-
 export default function PillNavbar() {
     const { t } = useTranslation();
-    // const location = useLocation();
 
     return (
-        <Box
-            sx={{
+        <Card
+            sx={(theme) => ({
                 position: "fixed",
                 top: 16,
                 left: "50%",
@@ -28,9 +20,10 @@ export default function PillNavbar() {
                 alignItems: "center",
                 px: "0.35rem",
                 py: "0.35rem",
-                border: '1px solid #95959526',
-                boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.12), 0px 8px 12px rgba(0, 0, 0, 0.08), 0px 8px 16px rgba(0, 0, 0, 0.08);'
-            }}
+                boxShadow: theme.shadows[4],
+                border: "1px solid",
+                borderColor: theme.palette.divider,
+            })}
         >
             <Box
                 sx={{
@@ -58,6 +51,6 @@ export default function PillNavbar() {
                 <LanguageSwitcher />
                 <ThemeSwitcher />
             </Box>
-        </Box>
+        </Card>
     );
 }

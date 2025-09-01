@@ -1,8 +1,6 @@
-// src/providers/theme.ts
 import { createTheme } from "@mui/material/styles";
 
 export const Theme = createTheme({
-    // Esquemas de color
     colorSchemes: {
         light: {
             palette: {
@@ -17,9 +15,8 @@ export const Theme = createTheme({
             },
         },
     },
-    // Selector para alternar manualmente (data-attribute en <html>)
     cssVariables: {
-        colorSchemeSelector: "data", // genera [data-light] y [data-dark]
+        colorSchemeSelector: "data",
     },
     typography: {
         fontFamily: `"Inter", "Roboto", Arial, sans-serif`,
