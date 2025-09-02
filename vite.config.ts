@@ -6,7 +6,8 @@ export default defineConfig({
     plugins: [react()],
     resolve: {
         alias: {
-            "@": fileURLToPath(new URL("./src", import.meta.url)), // 👈 alias @ a la carpeta src
+            "@": fileURLToPath(new URL("./src", import.meta.url)),
         },
     },
+    base: '/portfolio-jg/',
 });
