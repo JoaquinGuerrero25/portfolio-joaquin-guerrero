@@ -5,7 +5,12 @@
         "contact": "Contacto"
     },
     "home": {
-        "title": "Hola, soy Joaquín",
-        "description": "Construyo aplicaciones web escalables con React y Material UI."
+        "hero": {
+            "greeting": "Hola, soy",
+            "name": "Joaquín Guerrero",
+            "role": "Desarrollador Full Stack",
+            "description": "Transformo ideas en productos digitales modernos, aplicando buenas prácticas de desarrollo y asegurando un código limpio, escalable y con experiencias de usuario excepcionales.",
+            "cta": "Ver mis trabajos"
+        }
     }
 }

@@ -19,6 +19,6 @@ export const Theme = createTheme({
         colorSchemeSelector: "data",
     },
     typography: {
-        fontFamily: `"Inter", "Roboto", Arial, sans-serif`,
+        fontFamily: '"Geist", "Geist Fallback", sans-serif',
     },
 });
